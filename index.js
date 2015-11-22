@@ -7,7 +7,7 @@ var uuid = require("uuid");
 class SplitImage extends StartingPoint {
   constructor(){
     super("split-image");
-    this.add(0, "bufferize-image");
+    this.add(0, "bufferize-image/_input/image/_output/image");
     this.add(1, "split-images");
   }
 
